@@ -1,4 +1,4 @@
-package com.mf.presales_pay;
+package com.mf.presales_warehouse;
 
 import junit.framework.Test;
 import junit.framework.TestCase;
@@ -7,13 +7,13 @@ import junit.framework.TestSuite;
 /**
  * Unit test for simple App.
  */
-public class SeleniumRegressionTest extends TestCase {
+public class WarehouseInventoryTest extends TestCase {
     /**
      * Create the test case
      *
      * @param testName name of the test case
      */
-    public SeleniumRegressionTest(String testName) {
+    public WarehouseInventoryTest(String testName) {
         super(testName);
     }
 
@@ -21,27 +21,27 @@ public class SeleniumRegressionTest extends TestCase {
      * @return the suite of tests being tested
      */
     public static Test suite() {
-        return new TestSuite(SeleniumRegressionTest.class);
+        return new TestSuite(WarehouseInventoryTest.class);
     }
 
 
-    public void testUserProfCheckout() {
+    public void testEmergencyAudit() {
         assertTrue(true);
     }
 
-    public void testUserProfUpdates() {
+    public void testProcessRollBack() {
         assertTrue(true);
     }
 
-    public void testUserProfLogInOutt() {
+    public void testItemCancelMidPurchase() {
         assertTrue(true);
     }
 
-    public void testSpeakersOrder() {
+    public void testLostItem() {
         assertTrue(true);
     }
 
-    public void testSpeakersRemoveFromCartt() {
+    public void testWarehouseItemUnavailable() {
         assertTrue(true);
     }
 
@@ -49,31 +49,31 @@ public class SeleniumRegressionTest extends TestCase {
         assertTrue(true);
     }
 
-    public void testSpeakersNav() {
+    public void testWorkerNavigation() {
         assertTrue(true);
     }
 
-    public void testTabletsOrder() {
+    public void testUnreachableHostSystem() {
         assertTrue(true);
     }
 
-    public void testTabletsRemoveFromCart() {
+    public void testRogueRobot() {
         assertTrue(true);
     }
 
-    public void testTabletsFilterr() {
+    public void testUnidentifiableResult() {
         assertTrue(true);
     }
 
-    public void testSpeakersFilter() {
+    public void testWarehouseScrape() {
         assertTrue(true);
     }
 
-    public void testTabletsInventory() {
+    public void testClearShelf() {
         assertTrue(true);
     }
 
-    public void testTabletsNav() {
+    public void testBoxPackagingWaitTimeCapture() {
         assertTrue(true);
     }
 
