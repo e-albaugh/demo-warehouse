@@ -50,7 +50,7 @@ public class WarehouseInventoryTest extends TestCase {
     }
 
     public void testWorkerNavigation() {
-        assertTrue(true);
+        assertTrue(false);
     }
 
     public void testUnreachableHostSystem() {
