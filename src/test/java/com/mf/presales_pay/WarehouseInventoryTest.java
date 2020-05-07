@@ -30,7 +30,7 @@ public class WarehouseInventoryTest extends TestCase {
     }
 
     public void testProcessRollBack() {
-        assertTrue(true);
+        assertTrue(false);
     }
 
     public void testItemCancelMidPurchase() {
